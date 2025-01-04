@@ -1,0 +1,164 @@
+
+body{
+	padding:0;
+	margin:0;
+	background:#aaaaaa;
+	font-family: "Roboto", serif;
+}
+main{
+	padding-top:100px;
+	margin:150px 150px 10px 150px;
+	color:#591616;
+}
+header {
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:100;
+    margin:0;
+    color: #ffffff;
+	background:#c03624;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+	background-image: url('luces.png');
+    padding:0 0 115px 0;
+	font-family: "Roboto", serif;
+}
+
+
+header h1{
+    margin:0 10px 0 20px;
+    font-size: 40px;
+    color: #c03624;
+	background:#eeeeee;
+	padding:0 10px 0 10px;
+	font-size:40px;
+}
+video {
+position: fixed;
+right: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+z-index: -1;
+}
+
+header nav a{
+	display:block;
+	color:#000000;
+	text-decoration:none;
+	padding:16px;
+}
+header nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+header nav a:hover{
+	border-radius:16px;
+	text-decoration:underline;
+	background-color:#cccccc;
+	color:#bf2b18;
+	border:2px solid #8a1e10;
+}
+header a{
+	display:block;
+	color:#ffffff;
+	text-decoration:none;
+	padding:16px;
+}
+header ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+	gap: 10px;
+}
+
+header button{
+	border-radius:360px;
+	border:2px solid #bf2b18;
+	padding:0;
+    margin:0 20px 0 0;
+	background:#8eae8b;
+}
+header button:hover{
+	border-radius:360px;
+	background:#5b7f57;
+	border:2px solid #8a1e10;
+	text-decoration:underline;
+	
+}
+
+header nav li{
+	border:2px solid #bf2b18;
+	border-radius:16px;
+	background-color:#ffffff;
+	text-align:center;
+}
+footer{
+position: absolute;
+width: 100%;
+padding:0;
+color:  #c03624;
+text-align:center;
+background: rgb(109,209,78);
+background: linear-gradient(0deg, rgba(109,209,78,1) 35%, rgba(170,170,170,1) 100%);
+font-family: "Roboto", serif;
+}
+footer h2{
+	color:#c03624;
+	border-bottom: 1px dotted black;
+	margin:0 50px 0px 50px;
+}
+
+footer audio{
+	padding:0 0 0 16px;
+	text-align:left;
+}
+footer nav a{
+	display:block;
+	color:#000000;
+	text-decoration:none;
+	padding:16px;
+}
+footer nav ul {
+    padding: 0;
+    margin:0 0 20px 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+footer nav li{
+	border:2px solid #c03624;
+	border-radius:16px;
+	background-color:#ffffff;
+	text-align:center;
+}
+footer nav a:hover{
+	border-radius:16px;
+	text-decoration:underline;
+	background-color:#cccccc;
+	color:#c03624;
+}
+
+h3{
+border-bottom: 1px dotted black;
+}
+h2{
+text-decoration: underline;
+}
+
+.proyectos{
+	display:flex;
+	gap:20px;
+	justify-content:space-between;
+	margin:0 150px 0 150px;
+	padding:0 50px 0 50px;
+	align-items:flex-start;
+	background-color:rgb(238, 238, 238, 0.6);
+}
