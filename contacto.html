@@ -7,6 +7,28 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="estilo_juego.css" />
+		<script>
+			function formulario() {
+			let nombre = document.getElementById("nombre").value;
+			let fechanacimiento = document.getElementById("fecha").value;
+			let correo = document.getElementById("email").value;
+			let telefono = document.getElementById("movil").value;
+			let colorfav = document.getElementById("color").value;
+			let mensaje = document.getElementById("mensaje").value;			
+			
+			console.log(nombre);
+			console.log(fechanacimiento);
+			console.log(correo);
+			console.log(telefono);
+			console.log(colorfav);
+			console.log(mensaje);
+			
+			}
+	
+
+	
+		</script>
+	
 	</head>
 	
 	<body>
@@ -25,9 +47,7 @@
 	</button>
 	</header>
 	<main>
-   <figure>
             <img src="fondo.png" class="fondo">
-    </figure>
 	<article class="lista">
 	<section>
         <p><strong>Discord:</strong></p>
@@ -39,6 +59,17 @@
         <p><a href="mailto: victoria.pizarro@enti.cat">victoria.pizarro@enti.cat</a></p>
 	</section>
 	</article>
+	<h2>Formulario</h2>
+			<form>
+			<p>Responda al siguiente formulario</p>
+			<p>Nombre: <input type="text" id="nombre" name="name" required /> *</p>
+			<p>Fecha de nacimiento: <input type="date" id="fecha" name="fechanacimiento" /></p>
+			<p>E-mail: <input type="email" id="email" name="correo" required /> *</p>
+			<p>Teléfono móvil <input type="number" id="movil" name="telefono" /></p>
+			<p>Color favorito: <input type="text" id="color" name="colorfav" /></p>
+			<p>Mensaje a enviar: <input type="text" id="mensaje" name="mensaje" required /> *</p>
+			<p><input type="button" value="Enviar formulario" onClick="formulario();" /></p>
+			</form>
     </main>
 <footer>
 	<p>Copyright(c) 2024-2025</p>
