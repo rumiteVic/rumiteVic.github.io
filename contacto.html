@@ -62,13 +62,13 @@
 	<h2>Formulario</h2>
 			<form>
 			<p>Responda al siguiente formulario</p>
-			<p>Nombre: <input type="text" id="nombre" name="name" required /> *</p>
-			<p>Fecha de nacimiento: <input type="date" id="fecha" name="fechanacimiento" /></p>
-			<p>E-mail: <input type="email" id="email" name="correo" required /> *</p>
-			<p>Teléfono móvil <input type="number" id="movil" name="telefono" /></p>
-			<p>Color favorito: <input type="text" id="color" name="colorfav" /></p>
-			<p>Mensaje a enviar: <input type="text" id="mensaje" name="mensaje" required /> *</p>
-			<p><input type="button" value="Enviar formulario" onClick="formulario();" /></p>
+			<p><label for="nombre">Nombre</label>: <input type="text" id="nombre" name="name" required /> *</p>
+			<p><label for="fecha">Fecha de nacimiento</label>: <input type="date" id="fecha" name="fechanacimiento" /></p>
+			<p><label for="email">E-mail</label>: <input type="email" id="email" name="correo" required /> *</p>
+			<p><label for="movil">Teléfono móvil</label>: <input type="number" id="movil" name="telefono" /></p>
+			<p><label for="color">Color favorito</label>: <input type="color" id="color" name="colorfav" /></p>
+			<p><label for="mensaje">Mensaje a enviar</label>: <textarea id="mensaje" name="mensaje" required></textarea> *</p>
+			<p><input type="submit" value="Enviar formulario" onClick="formulario();" /></p>
 			</form>
     </main>
 <footer>
