@@ -1,12 +1,18 @@
+main p{
+	margin:30px 600px 0 600px;
+}
+
 body{
 	font-family: "Roboto", serif;
 	margin:0 0 0 0;
 	background:#aaaaaa;
 }
 main{
-	font-size: 2em;
+	font-size: 16px;
 	color:#591616;
 	text-align:center;
+	margin:120px 50px 100px 50px;
+	padding:80px 0 30px 0;
 	background-color:rgb(163, 201, 217, 0.6);
 }
 header {
@@ -21,12 +27,16 @@ header {
     justify-content: space-between;
 	background: rgb(0,225,255);
 	background: linear-gradient(0deg, rgba(0,225,255,0.258140756302521) 0%, rgba(1,251,255,1) 61%);
+    padding:0 0 80px 0;
 	font-family: "Roboto", serif;
 }
 
 header h1{
+    margin:0 10px 0 20px;
+    font-size: 40px;
     color:#26247d;
 	background:#A3C9D9;
+	padding:0 10px 0 10px;
 }
 .fondo{
 	position: fixed;
@@ -41,7 +51,7 @@ header nav a{
 	display:block;
 	color:#000000;
 	text-decoration:none;
-	padding:3em;
+	padding:16px;
 }
 header nav ul {
     padding: 0;
@@ -51,7 +61,7 @@ header nav ul {
     list-style: none;
 }
 header nav a:hover{
-	border-radius:5em;
+	border-radius:16px;
 	text-decoration:underline;
 	background-color:#cccccc;
 	color:#26247d;
@@ -60,6 +70,7 @@ header a{
 	display:block;
 	color:#ffffff;
 	text-decoration:none;
+	padding:16px;
 }
 header ul{
     padding: 0;
@@ -67,26 +78,26 @@ header ul{
     display: flex;
     justify-content: center;
     list-style: none;
-	gap: 1em;
+	gap: 10px;
 }
 
 header button{
-	border-radius:20em;
-	border:2em solid #26247d;
+	border-radius:360px;
+	border:2px solid #26247d;
 	padding:0;
-    margin:0 20em 0 0;
+    margin:0 20px 0 0;
 	background:#8eae8b;
 }
 header button:hover{
-	border-radius:20em;
+	border-radius:360px;
 	background:#5b7f57;
 	text-decoration:underline;
 	
 }
 
 header nav li{
-	border:2em solid #26247d;
-	border-radius:16em;
+	border:2px solid #26247d;
+	border-radius:16px;
 	background-color:#ffffff;
 	text-align:center;
 }
@@ -103,32 +114,35 @@ footer{
 }
 footer h2{
 	color:#A3C9D9;
-	border-bottom: 1em dotted black;
+	border-bottom: 1px dotted black;
+	margin:0 50px 0 50px;
 }
 
 footer audio{
+	padding:0 0 0 16px;
 	text-align:left;
 }
 footer nav a{
 	display:block;
 	color:#000000;
 	text-decoration:none;
-	padding:16em;
+	padding:16px;
 }
 footer nav ul {
     padding: 0;
+    margin:0 0 20px 0;
     display: flex;
     justify-content: center;
     list-style: none;
 }
 footer nav li{
-	border:2em solid #26247d;
-	border-radius:16em;
+	border:2px solid #26247d;
+	border-radius:16px;
 	background-color:#ffffff;
 	text-align:center;
 }
 footer nav a:hover{
-	border-radius:16em;
+	border-radius:16px;
 	text-decoration:underline;
 	background-color:#cccccc;
 	color:#26247d;
@@ -136,15 +150,19 @@ footer nav a:hover{
 .subtitle{
 	color:#591616;
 	background-color:rgb(238, 238, 238, 0.6);
+	margin:10px 300px 10px 300px;
 }
 main h2{
 	text-decoration: underline;
 	text-align:center;
+	margin:10px 300px 10px 300px;
 }
 h3{
-	border-bottom: 1em dotted black;
+	border-bottom: 1px dotted black;
+	margin:0 300px 0 300px;
 }
 h2{
 	text-decoration: underline;
 	text-align:center;
+	margin:10px 300px 10px 300px;
 }
