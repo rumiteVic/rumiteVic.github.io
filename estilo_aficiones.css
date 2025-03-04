@@ -1,13 +1,15 @@
 body{
-	padding:0;
 	margin:0;
 	background:#aaaaaa;
 	font-family: "Roboto", serif;
+	align-items:center;
 }
 main{
-	padding-top:100px;
-	margin:150px 150px 10px 150px;
+	font-size: 16px;
 	color:#591616;
+	margin:150px 100px 80px 50px;
+	padding-top:80px;
+	padding-bottom:80px;
 	background-color:rgb(163, 201, 217, 0.6);
 }
 header {
