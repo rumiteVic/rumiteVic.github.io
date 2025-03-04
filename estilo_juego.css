@@ -6,12 +6,13 @@ body{
 	font-family: "Roboto", serif;
 	margin:0 0 0 0;
 	background:#aaaaaa;
+	align-items:center;
 }
 main{
 	font-size: 16px;
 	color:#591616;
 	text-align:center;
-	margin:120px 0px 100px 0px;
+	margin:120px 30px 100px 30px;
 	padding:80px 0 30px 0;
 	background-color:rgb(163, 201, 217, 0.6);
 }
@@ -19,6 +20,7 @@ header {
 	position:fixed;
 	top:0;
 	width:100%;
+	height:auto;
 	z-index:100;
     margin:0;
     color: #ffffff;
@@ -81,7 +83,7 @@ header ul{
 }
 
 header button{
-	border-radius:10px;
+	border-radius:360px;
 	border:2px solid #26247d;
 	padding:0;
     margin:0 20px 0 0;
