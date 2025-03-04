@@ -4,7 +4,7 @@ body{
 	background:#aaaaaa;
 }
 main{
-	font-size: 8em;
+	font-size: 2em;
 	color:#591616;
 	text-align:center;
 	background-color:rgb(163, 201, 217, 0.6);
@@ -41,7 +41,7 @@ header nav a{
 	display:block;
 	color:#000000;
 	text-decoration:none;
-	padding:16em;
+	padding:3em;
 }
 header nav ul {
     padding: 0;
