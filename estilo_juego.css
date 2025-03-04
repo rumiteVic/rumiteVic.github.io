@@ -11,7 +11,7 @@ main{
 	font-size: 16px;
 	color:#591616;
 	text-align:center;
-	margin:120px 50px 100px 50px;
+	margin:120px 0px 100px 0px;
 	padding:80px 0 30px 0;
 	background-color:rgb(163, 201, 217, 0.6);
 }
@@ -25,8 +25,7 @@ header {
 	display: flex;
     align-items: center;
     justify-content: space-between;
-	background: rgb(0,225,255);
-background: linear-gradient(0deg, rgba(0,225,255,0.258140756302521) 51%, rgba(1,251,255,1) 100%);
+	background: linear-gradient(0deg, rgba(0,225,255,0.258140756302521) 51%, rgba(1,251,255,1) 100%);
     padding:0 0 80px 0;
 	font-family: "Roboto", serif;
 }
