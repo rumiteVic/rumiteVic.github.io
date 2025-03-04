@@ -3,17 +3,17 @@ main p{
 }
 
 body{
-font-family: "Roboto", serif;
-margin:0 0 0 0;
-background:#aaaaaa;
+	font-family: "Roboto", serif;
+	margin:0 0 0 0;
+	background:#aaaaaa;
 }
 main{
-font-size: 16px;
-color:#591616;
-text-align:center;
-margin:120px 50px 100px 50px;
-padding:80px 0 30px 0;
-background-color:rgb(163, 201, 217, 0.6);
+	font-size: 16px;
+	color:#591616;
+	text-align:center;
+	margin:120px 50px 100px 50px;
+	padding:80px 0 30px 0;
+	background-color:rgb(163, 201, 217, 0.6);
 }
 header {
 	position:fixed;
@@ -26,7 +26,7 @@ header {
     align-items: center;
     justify-content: space-between;
 	background: rgb(0,225,255);
-background: linear-gradient(0deg, rgba(0,225,255,0.258140756302521) 0%, rgba(1,251,255,1) 61%);
+	background: linear-gradient(0deg, rgba(0,225,255,0.258140756302521) 0%, rgba(1,251,255,1) 61%);
     padding:0 0 80px 0;
 	font-family: "Roboto", serif;
 }
@@ -39,12 +39,12 @@ header h1{
 	padding:0 10px 0 10px;
 }
 .fondo{
-position: fixed;
-right: 0;
-bottom: 0;
-width: 100%;
-height: 100%;
-z-index: -1;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
 }
 
 header nav a{
@@ -103,14 +103,14 @@ header nav li{
 }
 
 footer{
-position: absolute;
-width: 100%;
-padding:0;
-color: #591616;
-text-align:center;
-background: rgb(19,18,81);
-background: linear-gradient(0deg, rgba(19,18,81,1) 0%, rgba(0,128,165,1) 100%);
-font-family: "Roboto", serif;
+	position: absolute;
+	width: 100%;
+	padding:0;
+	color: #591616;
+	text-align:center;
+	background: rgb(19,18,81);
+	background: linear-gradient(0deg, rgba(19,18,81,1) 0%, rgba(0,128,165,1) 100%);
+	font-family: "Roboto", serif;
 }
 footer h2{
 	color:#A3C9D9;
@@ -148,21 +148,21 @@ footer nav a:hover{
 	color:#26247d;
 }
 .subtitle{
-color:#591616;
-background-color:rgb(238, 238, 238, 0.6);
-margin:10px 300px 10px 300px;
+	color:#591616;
+	background-color:rgb(238, 238, 238, 0.6);
+	margin:10px 300px 10px 300px;
 }
 main h2{
-text-decoration: underline;
-text-align:center;
-margin:10px 300px 10px 300px;
+	text-decoration: underline;
+	text-align:center;
+	margin:10px 300px 10px 300px;
 }
 h3{
-border-bottom: 1px dotted black;
-margin:0 300px 0 300px;
+	border-bottom: 1px dotted black;
+	margin:0 300px 0 300px;
 }
 h2{
-text-decoration: underline;
-text-align:center;
-margin:10px 300px 10px 300px;
+	text-decoration: underline;
+	text-align:center;
+	margin:10px 300px 10px 300px;
 }
