@@ -143,7 +143,7 @@ footer nav a:hover{
 .subtitle{
 color:#591616;
 background-color:rgb(163, 201, 217, 0.3);
-margin:10px 300px 10px 300px;
+margin:10px 150px 10px 150px;
 }
 
 h3{
@@ -155,18 +155,18 @@ text-decoration: underline;
 .lista{
 	display:flex;
 	justify-content:space-around;
-	margin:0 150px 0 150px;
+	margin:0 30px 0 30px;
 }
 
 .lista2{
-	margin:0 150px 0 150px;
+	margin:0 30px 0 30px;
 }
 
 .proyectos{
 	display:block;
 	justify-content:center;
-	margin:0 150px 0 150px;
-	padding:0 150px 0 150px;
+	margin:0 30px 0 30px;
+	padding:0 50px 0 50px;
 	align-items:flex-start;
 	text-align:center;
 }
