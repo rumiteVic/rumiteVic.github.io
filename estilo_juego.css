@@ -4,10 +4,9 @@ body{
 	background:#aaaaaa;
 }
 main{
-	font-size: 16em;
+	font-size: 8em;
 	color:#591616;
 	text-align:center;
-	padding:80em 0 30em 0;
 	background-color:rgb(163, 201, 217, 0.6);
 }
 header {
@@ -22,16 +21,12 @@ header {
     justify-content: space-between;
 	background: rgb(0,225,255);
 	background: linear-gradient(0deg, rgba(0,225,255,0.258140756302521) 0%, rgba(1,251,255,1) 61%);
-    padding:0 0 80em 0;
 	font-family: "Roboto", serif;
 }
 
 header h1{
-    margin:0 10em 0 20em;
-    font-size: 40em;
     color:#26247d;
 	background:#A3C9D9;
-	padding:0 10em 0 10em;
 }
 .fondo{
 	position: fixed;
@@ -65,7 +60,6 @@ header a{
 	display:block;
 	color:#ffffff;
 	text-decoration:none;
-	padding:16em;
 }
 header ul{
     padding: 0;
@@ -73,7 +67,7 @@ header ul{
     display: flex;
     justify-content: center;
     list-style: none;
-	gap: 10em;
+	gap: 1em;
 }
 
 header button{
@@ -123,7 +117,6 @@ footer nav a{
 }
 footer nav ul {
     padding: 0;
-    margin:0 0 20em 0;
     display: flex;
     justify-content: center;
     list-style: none;
