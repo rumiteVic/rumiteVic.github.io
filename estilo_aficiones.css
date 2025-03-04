@@ -1,3 +1,15 @@
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
+
 body{
 	margin:0;
 	background:#aaaaaa;
@@ -154,4 +166,9 @@ text-decoration: underline;
 	margin:0 30px 0 30px;
 	padding:0 50px 0 50px;
 	align-items:flex-start;
+}
+
+img {
+	width:auto;
+	height:auto;
 }
