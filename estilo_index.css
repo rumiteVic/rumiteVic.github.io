@@ -22,7 +22,7 @@ header {
     align-items: center;
     justify-content: space-between;
 	background: rgb(0,225,255);
-background: linear-gradient(0deg, rgba(0,225,255,0.258140756302521) 0%, rgba(1,251,255,1) 61%);
+background: linear-gradient(0deg, rgba(0,225,255,0.258140756302521) 0%, rgba(1,251,255,1) 40%);
     padding:0 0 80px 0;
 	font-family: "Roboto", serif;
 }
