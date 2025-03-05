@@ -10,10 +10,10 @@ body {
 }
 
 main {
-  font-size: 1.2vw; /* Escala con la pantalla */
+  font-size: 1.2vw;
   color: #591616;
   text-align: center;
-  margin: 10vw 5vw 5vw 5vw; /* Márgenes relativos */
+  margin: 10vw 5vw 5vw 5vw;
   padding-top: 6vw;
   padding-bottom: 15vw;
   background-color: rgba(163, 201, 217, 0.6);
@@ -31,12 +31,12 @@ header {
   justify-content: space-between;
   background: linear-gradient(0deg, rgba(0,225,255,0.258) 0%, rgba(1,251,255,1) 100%);
   font-family: "Roboto", serif;
-  padding: 1vw; /* Ajuste dinámico */
+  padding: 1vw;
 }
 
 header h1 {
   margin: 0 1vw;
-  font-size: 3vw; /* Tamaño relativo */
+  font-size: 3vw;
   color: #26247d;
   background: #A3C9D9;
   padding: 0.5vw;
@@ -172,4 +172,9 @@ h3 {
 h2 {
   text-decoration: underline;
   text-align: center;
+}
+
+.imagen{
+	width:20%;
+	height:20%;
 }
