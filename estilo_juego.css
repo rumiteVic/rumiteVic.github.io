@@ -173,3 +173,7 @@ input:invalid {
 input:valid {
   border: 0.2vw solid green;
 }
+
+.nocambies{
+	border: 0.2vw solid black;
+}

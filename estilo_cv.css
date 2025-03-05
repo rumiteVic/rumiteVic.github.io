@@ -8,7 +8,6 @@ body {
   margin: 0;
   align-items: center;
 }
-
 main{
 font-size: 1.2vw;
 color:#591616;
@@ -17,7 +16,6 @@ margin: 10vw 5vw 5vw 5vw;
   padding-bottom: 15vw;
 background-color:rgb(163, 201, 217, 0.6);
 }
-
 header {
   position: fixed;
   top: 0;
@@ -32,7 +30,6 @@ header {
   font-family: "Roboto", serif;
   padding: 1vw;
 }
-
 header h1 {
   margin: 0 1vw;
   font-size: 3vw;
@@ -40,7 +37,6 @@ header h1 {
   background: #A3C9D9;
   padding: 0.5vw;
 }
-
 .fondo {
   position: fixed;
   top:0;
@@ -50,7 +46,6 @@ header h1 {
   z-index: -1;
   background-size: 100% 100%;
 }
-
 header nav a {
   display: block;
   color: #000000;
@@ -58,7 +53,6 @@ header nav a {
   text-decoration: none;
   padding: 1vw;
 }
-
 header nav ul {
   padding: 0;
   margin: 0;
@@ -67,14 +61,12 @@ header nav ul {
   list-style: none;
   gap: 1vw;
 }
-
 header nav a:hover {
   border-radius: 1vw;
   text-decoration: underline;
   background-color: #cccccc;
   color: #26247d;
 }
-
 header button {
   border-radius: 50%;
   border: 0.2vw solid #26247d;
@@ -82,18 +74,15 @@ header button {
   margin: 0 2vw 0 0;
   background: #8eae8b;
 }
-
 header button:hover {
   background: #5b7f57;
 }
-
 header nav li {
   border: 0.2vw solid #26247d;
   border-radius: 1vw;
   background-color: #ffffff;
   text-align: center;
 }
-
 footer {
   padding-bottom:3vw;
   position:absolute;
@@ -107,25 +96,21 @@ footer {
   font-family: "Roboto", serif;
   font-size: 1.2vw;
 }
-
 footer h2 {
   color: #A3C9D9;
   border-bottom: 0.1vw dotted black;
   margin: 0 5vw;
 }
-
 footer audio {
   padding: 0 0 0 1vw;
   text-align: left;
 }
-
 footer nav a {
   display: block;
   color: #000000;
   text-decoration: none;
   padding: 1vw;
 }
-
 footer nav ul {
   padding: 0;
   margin: 0 0 2vw 0;
@@ -135,18 +120,15 @@ footer nav ul {
   font-size:1vw;
   gap: 1vw;
 }
-
 footer p{
 	font-size:1vw;
 }
-
 footer nav li {
   border: 0.2vw solid #26247d;
   border-radius: 1vw;
   background-color: #ffffff;
   text-align: center;
 }
-
 footer nav a:hover {
   border-radius: 1vw;
   text-decoration: underline;
@@ -168,7 +150,6 @@ text-decoration: underline;
 .lista2{
 	margin:0 2vw 0 2vw;
 }
-
 .proyectos{
 	display:block;
 	justify-content:center;
@@ -187,4 +168,79 @@ text-decoration: underline;
 .imagen{
 	width:30%;
 	height:30%;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 4vw;
+  }
+
+  main {
+    font-size: 4vw;
+    margin: 5vw;
+    padding: 5vh 5vw 80vw 5vw;
+  }
+
+  header {
+    flex-direction: row;
+    text-align: center;
+    padding: 2vw;
+  }
+
+  header h1 {
+    font-size: 5vw;
+  }
+
+  header nav ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+  }
+
+  header nav a {
+    font-size: 4vw;
+    padding: 2vw;
+  }
+
+  header button {
+    width: 10vw;
+    height: 10vw;
+    font-size: 4vw;
+    margin: 2vw;
+  }
+
+.fondo {
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  width:100%;
+  height:100%;
+  z-index: -1;
+  background-size: 100% 100%;
+}
+  .imagen {
+    width: 80%;
+    height: auto;
+  }
+
+  footer {
+    font-size: 4vw;
+    padding: 5vw;
+  }
+
+  footer nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer nav a {
+    font-size: 3.5vw;
+    padding: 3vw;
+  }
+
+  .titulo {
+    margin: 0;
+    text-align: center;
+  }
 }

@@ -7,6 +7,35 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="estilo_juego.css" />
+	
+	<script>
+	let cantidadclicks = 0
+			function ganaclick() {
+			cantidadclicks++;
+			if(cantidadclicks === 10){
+			console.log("Ganaste!");
+			document.getElementById("cantidad").disabled = true;
+			}
+		}
+	function formulario() {
+			let nombre = document.getElementById("nombre").value;
+			let fechanacimiento = document.getElementById("fecha").value;
+			let correo = document.getElementById("email").value;
+			let telefono = document.getElementById("movil").value;
+			let colorfav = document.getElementById("color").value;
+			let mensaje = document.getElementById("mensaje").value;			
+			
+			console.log(nombre);
+			console.log(fechanacimiento);
+			console.log(correo);
+			console.log(telefono);
+			console.log(colorfav);
+			console.log(mensaje);
+			
+			}
+		</script>
+	
+	
 	</head>
 	
 	<body>
@@ -28,9 +57,21 @@
 	<figure>
             <img src="imgs/fondo.png" class="fondo">
     </figure>
-	<p>Esta en progreso de hacerse</p>
-	<p>Mantengase a la espera</p>
-	 <img src="imgs/construccion.gif"/>
+	<p>Este es el juego de apretar un botón</p>
+	<button id="cantidad" onClick="ganaclick();">
+	Apriétame 10 veces para ganar!
+	</button>
+		<h2>Formulario</h2>
+			<form>
+			<p>Responda al siguiente formulario</p>
+			<p><label for="nombre">Nombre</label>: <input type="text" id="nombre" name="name" minlength="3" required />*</p>
+            <p><label for="fecha">Fecha de nacimiento</label>: <input type="date" id="fecha" name="fechanacimiento" /></p>
+            <p><label for="email">E-mail</label>: <input type="email" id="email" name="correo" minlength="3" maxlength="64" pattern=".+@.+.+" required />*</p>
+            <p><label for="movil">Teléfono móvil</label>: <input type="tel" id="movil" name="telefono" minlength="9" maxlength="9" placeholder="900000000" required />*</p>
+            <p><label for="color">Color favorito</label>: <input type="color" id="color" name="colorfav" /></p>
+            <p><label for="mensaje">Mensaje a enviar</label>: <textarea id="mensaje" name="mensaje" required></textarea>*</p>
+            <p><input type="submit" value="Enviar formulario" onClick="formulario();" class="nocambies"/></p>
+			</form>
 	</main>
 <footer>
 	<p>Copyright(c) 2024-2025</p>
