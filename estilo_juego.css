@@ -164,3 +164,10 @@ h2{
 	text-align:center;
 	margin:10px 300px 10px 300px;
 }
+
+input:invalid {
+  border: 2px solid red;
+}
+input:valid {
+  border: 2px solid green;
+}
