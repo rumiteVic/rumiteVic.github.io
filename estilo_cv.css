@@ -153,14 +153,8 @@ footer nav a:hover {
   background-color: #cccccc;
   color: #26247d;
 }
-.subtitle{
-color:#591616;
-background-color:rgb(163, 201, 217, 0.3);
-margin:10px 150px 10px 150px;
-}
-
 h3{
-border-bottom: 1px dotted black;
+border-bottom: 0.2vw dotted black;
 }
 h2{
 text-decoration: underline;
@@ -168,25 +162,29 @@ text-decoration: underline;
 .lista{
 	display:flex;
 	justify-content:space-around;
-	margin:0 30px 0 30px;
+	margin:0 2vw 0 2vw;
 }
 
 .lista2{
-	margin:0 30px 0 30px;
+	margin:0 2vw 0 2vw;
 }
 
 .proyectos{
 	display:block;
 	justify-content:center;
-	margin:0 30px 0 30px;
-	padding:0 50px 0 50px;
+	margin:0 2vw 0 2vs;
+	padding:0 2vw 0 2vw;
 	align-items:flex-start;
 	text-align:center;
 }
 .titulo{
-	margin:0 600px 0 600px;
+	margin:0 40% 0 40%;
 	text-align:center;
 }
 .bordes{
 	position:relative;
+}
+.imagen{
+	width:30%;
+	height:30%;
 }
