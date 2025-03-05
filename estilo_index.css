@@ -1,5 +1,7 @@
-@media (max-width:1920px){
-
+html{
+	min-height:100%;
+	position:relative;
+}
 body {
   font-family: "Roboto", serif;
   margin: 0;
@@ -12,7 +14,7 @@ main {
   text-align: center;
   margin: 10vw 5vw 5vw 5vw; /* Márgenes relativos */
   padding-top: 6vw;
-  padding-bottom: 6vw;
+  padding-bottom: 15vw;
   background-color: rgba(163, 201, 217, 0.6);
 }
 
@@ -41,11 +43,10 @@ header h1 {
 
 .fondo {
   position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: scale(1.8, 1.4);
+  top:0;
+  right:0;
+  width:100vw;
+  height:100vh;
   z-index: -1;
   background-size: 100% 100%;
 }
@@ -53,7 +54,7 @@ header h1 {
 header nav a {
   display: block;
   color: #000000;
-  font-size:1.8vw;
+  font-size:1vw;
   text-decoration: none;
   padding: 1vw;
 }
@@ -94,10 +95,12 @@ header nav li {
 }
 
 footer {
-  bottom:0;
   padding-bottom:3vw;
+  position:absolute;
+  bottom:0;
   width: 100%;
-  padding: 0;
+  padding-top:1vw;
+  padding-bottom: 2vw;
   color: #591616;
   text-align: center;
   background: linear-gradient(0deg, rgba(19,18,81,1) 0%, rgba(0,128,165,1) 100%);
@@ -129,12 +132,12 @@ footer nav ul {
   display: flex;
   justify-content: center;
   list-style: none;
-  font-size:1.8vw;
+  font-size:1vw;
   gap: 1vw;
 }
 
 footer p{
-	font-size:1.5vw;
+	font-size:1vw;
 }
 
 footer nav li {
@@ -168,5 +171,4 @@ h3 {
 h2 {
   text-decoration: underline;
   text-align: center;
-}
 }
