@@ -15,6 +15,8 @@
 			if(cantidadclicks === 10){
 			console.log("Ganaste!");
 			document.getElementById("cantidad").disabled = true;
+			alert("ganaste!!");
+			alert("Has hecho:"+cantidadclicks+" clicks totales");
 			}
 		}
 	function formulario() {
@@ -24,14 +26,6 @@
 			let telefono = document.getElementById("movil").value;
 			let colorfav = document.getElementById("color").value;
 			let mensaje = document.getElementById("mensaje").value;			
-			
-			console.log(nombre);
-			console.log(fechanacimiento);
-			console.log(correo);
-			console.log(telefono);
-			console.log(colorfav);
-			console.log(mensaje);
-			
 			}
 		</script>
 	
@@ -59,7 +53,7 @@
     </figure>
 	<p>Este es el juego de apretar un botón</p>
 	<button id="cantidad" onClick="ganaclick();">
-	Apriétame 10 veces para ganar!
+	Haz click!
 	</button>
 		<h2>Formulario</h2>
 			<form>
