@@ -170,10 +170,13 @@ text-decoration: underline;
 	width:30%;
 	height:30%;
 }
-
 @media (max-width: 768px) {
-  main {
+  body {
     font-size: 2vw;
+  }
+
+  main {
+    font-size: 2.3vw;
     margin: 5vw;
     padding: 20vh 5vw 80vw 5vw;
 	text-align:justify;
@@ -217,10 +220,15 @@ text-decoration: underline;
   z-index: -1;
   background-size: 100% 100%;
 }
-  .imagen {
-    width: 80%;
-    height: auto;
-  }
+.imagen{
+	width:100%;
+	height:100%;
+}
+
+.imagen2{
+	width:100%;
+	height:100%;
+}
 
   footer {
     font-size: 4vw;
@@ -241,9 +249,5 @@ text-decoration: underline;
     padding: 3vw;
   }
 
-  .titulo {
-    margin: 0;
-    text-align: center;
-  }
 
 }
