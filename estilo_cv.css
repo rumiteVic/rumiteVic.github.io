@@ -15,6 +15,7 @@ margin: 10vw 5vw 5vw 5vw;
   padding-top: 6vw;
   padding-bottom: 15vw;
 background-color:rgb(163, 201, 217, 0.6);
+text-align:justify;
 }
 header {
   position: fixed;
@@ -49,7 +50,7 @@ header h1 {
 header nav a {
   display: block;
   color: #000000;
-  font-size:1vw;
+  font-size:1.3vw;
   text-decoration: none;
   padding: 1vw;
 }
@@ -172,13 +173,14 @@ text-decoration: underline;
 
 @media (max-width: 768px) {
   body {
-    font-size: 4vw;
+    font-size: 2vw;
   }
 
   main {
-    font-size: 4vw;
+    font-size: 2.3vw;
     margin: 5vw;
-    padding: 5vh 5vw 80vw 5vw;
+    padding: 20vh 5vw 80vw 5vw;
+	text-align:justify;
   }
 
   header {
@@ -198,7 +200,7 @@ text-decoration: underline;
   }
 
   header nav a {
-    font-size: 4vw;
+    font-size: 3vw;
     padding: 2vw;
   }
 
@@ -228,14 +230,18 @@ text-decoration: underline;
     font-size: 4vw;
     padding: 5vw;
   }
+  
+  footer p{
+	  font-size:2vw;
+  }
 
   footer nav ul {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   footer nav a {
-    font-size: 3.5vw;
+    font-size: 3vw;
     padding: 3vw;
   }
 
@@ -243,4 +249,5 @@ text-decoration: underline;
     margin: 0;
     text-align: center;
   }
+
 }
