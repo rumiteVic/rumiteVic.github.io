@@ -91,7 +91,7 @@ header nav li {
 }
 footer {
   padding-bottom:3vw;
-  position:absolute;
+  position:relative;
   bottom:0;
   width: 100%;
   padding-top:1vw;
@@ -184,7 +184,7 @@ text-decoration: underline;
   main {
     font-size: 2.3vw;
     margin: 5vw;
-    padding: 20vw 5vw 40vw 5vw;
+    padding: 20vw 5vw 20vw 5vw;
 	text-align:justify;
 	flex-direction: column;
 	height:auto;
@@ -242,10 +242,17 @@ text-decoration: underline;
 	height:100%;
 }
 
-  footer {
-    font-size: 4vw;
-    padding: 5vw;
-  }
+footer {
+  position:relative;
+  bottom:0;
+  width: 100%;
+  padding-top:1vw;
+  padding-bottom: 2vw;
+  color: #591616;
+  text-align: center;
+  background: linear-gradient(0deg, rgba(19,18,81,1) 0%, rgba(0,128,165,1) 100%);
+  font-family: "Roboto", serif;
+}
   
   footer p{
 	  font-size:2vw;
