@@ -187,7 +187,7 @@ input:valid {
   header {
     flex-direction: row;
     text-align: center;
-     padding: 0.3vh 2vw 0vh 2vw;
+    padding: 2vw;
   }
 
   header h1 {
@@ -202,7 +202,7 @@ input:valid {
 
   header nav a {
     font-size: 1.5vw;
-    padding: 0.3vw;
+    padding: 2vw;
   }
 
   header button {
@@ -292,6 +292,9 @@ footer nav a:hover {
 input:valid {
   border: 0.2vw solid green;
 }
-
+.contactos{
+	width:20%;
+	height:auto;
+}
 
 }
