@@ -73,7 +73,7 @@ header nav a:hover {
 header button {
   border-radius: 50%;
   border: 0.2vw solid #26247d;
-  padding: 0;
+  padding: 0.3vw;
   margin: 0 2vw 0 0;
   background: #8eae8b;
 }
@@ -169,7 +169,7 @@ h2 {
   main {
     font-size: 2.3vw;
     margin: 5vw;
-    padding: 20vh 5vw 100vh 5vw;
+    padding: 20vh 5vw 20vh 5vw;
   }
 
   header {
