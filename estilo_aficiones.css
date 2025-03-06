@@ -172,6 +172,7 @@ text-decoration: underline;
     padding: 20vh 5vw 20vh 5vw;
 	text-align:justify;
 	gap:2vw;
+	flex-direction: column;
   }
     body h2{
 	text-align:left;
