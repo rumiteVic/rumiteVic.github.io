@@ -176,7 +176,7 @@ input:valid {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: portrait) {
   main {
     font-size: 2.3vw;
     margin: 5vw;
