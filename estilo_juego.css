@@ -177,10 +177,6 @@ input:valid {
 
 
 @media (max-width: 768px) {
-  body {
-    font-size: 2vw;
-  }
-
   main {
     font-size: 2.3vw;
     margin: 5vw;
@@ -195,7 +191,7 @@ input:valid {
   }
 
   header h1 {
-    font-size: 5vw;
+    font-size: 3vw;
   }
 
   header nav ul {
@@ -205,7 +201,7 @@ input:valid {
   }
 
   header nav a {
-    font-size: 3vw;
+    font-size: 1.5vw;
     padding: 2vw;
   }
 
