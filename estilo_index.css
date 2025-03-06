@@ -31,9 +31,8 @@ header {
   justify-content: space-between;
   background: linear-gradient(0deg, rgba(0,225,255,0.258) 0%, rgba(1,251,255,1) 100%);
   font-family: "Roboto", serif;
-   padding: 0.3vh 2vw 0vh 2vw;
+  padding: 1vw;
 }
-
 header h1 {
   margin: 0 1vw;
   font-size: 3vw;
@@ -41,7 +40,6 @@ header h1 {
   background: #A3C9D9;
   padding: 0.5vw;
 }
-
 .fondo {
   position: fixed;
   top:0;
@@ -51,15 +49,13 @@ header h1 {
   z-index: -1;
   background-size: 100% 100%;
 }
-
 header nav a {
   display: block;
   color: #000000;
-  font-size:1.5vw;
+  font-size:1.3vw;
   text-decoration: none;
-  padding: 0.3vw;
+  padding: 1vw;
 }
-
 header nav ul {
   padding: 0;
   margin: 0;
@@ -68,14 +64,12 @@ header nav ul {
   list-style: none;
   gap: 1vw;
 }
-
 header nav a:hover {
   border-radius: 1vw;
   text-decoration: underline;
   background-color: #cccccc;
   color: #26247d;
 }
-
 header button {
   border-radius: 50%;
   border: 0.2vw solid #26247d;
@@ -83,11 +77,9 @@ header button {
   margin: 0 2vw 0 0;
   background: #8eae8b;
 }
-
 header button:hover {
   background: #5b7f57;
 }
-
 header nav li {
   border: 0.2vw solid #26247d;
   border-radius: 1vw;
@@ -108,25 +100,21 @@ footer {
   font-family: "Roboto", serif;
   font-size: 1.2vw;
 }
-
 footer h2 {
   color: #A3C9D9;
   border-bottom: 0.1vw dotted black;
   margin: 0 5vw;
 }
-
 footer audio {
   padding: 0 0 0 1vw;
   text-align: left;
 }
-
 footer nav a {
   display: block;
   color: #000000;
   text-decoration: none;
-  padding: 0.3vw;
+  padding: 1vw;
 }
-
 footer nav ul {
   padding: 0;
   margin: 0 0 2vw 0;
@@ -136,18 +124,15 @@ footer nav ul {
   font-size:1vw;
   gap: 1vw;
 }
-
 footer p{
 	font-size:1vw;
 }
-
 footer nav li {
   border: 0.2vw solid #26247d;
   border-radius: 1vw;
   background-color: #ffffff;
   text-align: center;
 }
-
 footer nav a:hover {
   border-radius: 1vw;
   text-decoration: underline;
