@@ -191,9 +191,6 @@ text-decoration: underline;
 	height:auto;
 	width:auto;
   }
-  body h2{
-	text-align:left;
-}
 
   header {
     flex-direction: row;
@@ -212,7 +209,7 @@ text-decoration: underline;
   }
 
   header nav a {
-    font-size: 1.5vw;
+    font-size: 2vw;
     padding: 2vw;
   }
 
@@ -254,7 +251,9 @@ footer {
   background: linear-gradient(0deg, rgba(19,18,81,1) 0%, rgba(0,128,165,1) 100%);
   font-family: "Roboto", serif;
 }
-  
+    footer h2{
+	  font-size:3vw;
+  }
   footer p{
 	  font-size:2vw;
   }

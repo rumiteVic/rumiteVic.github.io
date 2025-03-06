@@ -197,7 +197,7 @@ html{
   }
 
   header nav a {
-    font-size: 1.5vw;
+    font-size: 2vw;
     padding: 2vw;
   }
 
@@ -238,7 +238,9 @@ footer {
   footer p{
 	  font-size:2vw;
   }
-
+  footer h2{
+	  font-size:3vw;
+  }
   footer nav ul {
     flex-direction: row;
     align-items: center;

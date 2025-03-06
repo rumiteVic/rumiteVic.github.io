@@ -177,15 +177,12 @@ text-decoration: underline;
   main {
     font-size: 2.3vw;
     margin: 5vw;
-    padding: 10vw 0.4vw 20vw 0.4vw;
+    padding: 10vw 0.2vw 20vw 0.2vw;
 	text-align:justify;
 	flex-direction: column;
 	height:auto;
 	min-width:100%;
   }
-    body h2{
-	text-align:left;
-}
 
   header {
     flex-direction: row;
@@ -204,7 +201,7 @@ text-decoration: underline;
   }
 
   header nav a {
-    font-size: 1.5vw;
+    font-size: 2vw;
     padding: 2vw;
   }
 
@@ -226,13 +223,13 @@ text-decoration: underline;
   background-size: 100% 100%;
 }
 .imagen{
-	width:100%;
-	height:100%;
+	width:20vw;
+	height:30vw;
 }
 
 .imagen2{
-	width:100%;
-	height:100%;
+	width:30vw;
+	height:30vw;
 }
 
 footer {
@@ -250,7 +247,9 @@ footer {
   footer p{
 	  font-size:2vw;
   }
-
+  footer h2{
+	  font-size:3vw;
+  }
   footer nav ul {
     flex-direction: row;
     align-items: center;
@@ -268,7 +267,6 @@ footer {
 
 .proyectos{
 	display:flex;
-	gap:0.3vw;
 	margin:0 0.5vw 0 0.5vw;
 	padding:0 1vw 0 1vw;
 	align-items:flex-start;
