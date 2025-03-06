@@ -8,6 +8,9 @@ body {
   margin: 0;
   align-items: center;
 }
+body h2{
+	text-align:left;
+}
 main{
 font-size: 1.2vw;
 color:#591616;
@@ -176,8 +179,10 @@ text-decoration: underline;
     margin: 5vw;
     padding: 20vh 5vw 80vw 5vw;
 	text-align:justify;
-	gap:2vw;
   }
+  body h2{
+	text-align:left;
+}
 
   header {
     flex-direction: row;

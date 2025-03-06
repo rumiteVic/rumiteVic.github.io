@@ -17,7 +17,9 @@ margin: 10vw 5vw 5vw 5vw;
 	background-color:rgb(163, 201, 217, 0.6);
 	text-align:justify;
 }
-
+  body h2{
+	text-align:left;
+}
 header {
   position: fixed;
   top: 0;
@@ -164,10 +166,6 @@ text-decoration: underline;
 
 
 @media (max-width: 768px) {
-  body {
-    font-size: 2vw;
-  }
-
   main {
     font-size: 2.3vw;
     margin: 5vw;
@@ -175,6 +173,9 @@ text-decoration: underline;
 	text-align:justify;
 	gap:2vw;
   }
+    body h2{
+	text-align:left;
+}
 
   header {
     flex-direction: row;
