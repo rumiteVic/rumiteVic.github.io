@@ -177,6 +177,11 @@ input:valid {
 
 
 @media (max-width: 768px) and (orientation: portrait) {
+  html{
+	min-height:100%;
+	min-width:100%;
+	position:relative;
+}
   main {
     font-size: 2.3vw;
     margin: 5vw;
@@ -253,7 +258,7 @@ input:valid {
 }
 .contactos{
 	width:10%;
-	height:auto;
+	height:10%;
 }
 
 }
