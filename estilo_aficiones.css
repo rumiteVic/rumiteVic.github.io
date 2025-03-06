@@ -171,7 +171,6 @@ text-decoration: underline;
     margin: 5vw;
     padding: 20vh 5vw 20vh 5vw;
 	text-align:justify;
-	gap:2vw;
 	flex-direction: column;
   }
     body h2{
@@ -286,7 +285,7 @@ footer nav a:hover {
   color: #26247d;
 }
 .contactos{
-	width:20%;
+	width:10%;
 	height:auto;
 }
 
