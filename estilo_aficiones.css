@@ -180,7 +180,7 @@ text-decoration: underline;
 	text-align:justify;
 	flex-direction: column;
 	height:auto;
-	width:auto;
+	min-width:100%;
   }
     body h2{
 	text-align:left;
