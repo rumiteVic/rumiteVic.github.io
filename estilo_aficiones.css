@@ -16,6 +16,8 @@ margin: 10vw 5vw 5vw 5vw;
   padding-bottom: 15vw;
 	background-color:rgb(163, 201, 217, 0.6);
 	text-align:justify;
+	height:auto;
+	width:auto;
 }
   body h2{
 	text-align:left;
@@ -177,6 +179,8 @@ text-decoration: underline;
     padding: 20vh 5vw 20vh 5vw;
 	text-align:justify;
 	flex-direction: column;
+	height:auto;
+	width:auto;
   }
     body h2{
 	text-align:left;

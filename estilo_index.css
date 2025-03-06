@@ -17,6 +17,8 @@ main {
   padding-top: 6vw;
   padding-bottom: 15vw;
   background-color: rgba(163, 201, 217, 0.6);
+  height:auto;
+	width:auto;
 }
 
 header {
@@ -174,6 +176,8 @@ html{
     font-size: 2.3vw;
     margin: 5vw;
     padding: 20vh 5vw 20vh 5vw;
+	height:auto;
+	width:auto;
   }
 
   header {
