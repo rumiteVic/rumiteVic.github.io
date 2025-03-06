@@ -48,7 +48,7 @@ header h1 {
   top:0;
   right:0;
   width:100vw;
-  height:100vh;
+  height:100vw;
   z-index: -1;
   background-size: 100% 100%;
 }
@@ -176,7 +176,7 @@ text-decoration: underline;
   main {
     font-size: 2.3vw;
     margin: 5vw;
-    padding: 20vh 5vw 20vh 5vw;
+    padding: 20vw 5vw 40vw 5vw;
 	text-align:justify;
 	flex-direction: column;
 	height:auto;
@@ -189,7 +189,7 @@ text-decoration: underline;
   header {
     flex-direction: row;
     text-align: center;
-    padding: 0.3vh 2vw 0vh 2vw;
+    padding: 0.3vw 2vw 0vw 2vw;
   }
 
   header h1 {

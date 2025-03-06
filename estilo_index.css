@@ -13,7 +13,7 @@ main {
   font-size: 1.2vw;
   color: #591616;
   text-align: center;
-  margin: 10vw 5vw 5vw 5vw;
+margin: 10vw 5vw 5vw 5vw;
   padding-top: 6vw;
   padding-bottom: 15vw;
   background-color: rgba(163, 201, 217, 0.6);
@@ -47,7 +47,7 @@ header h1 {
   top:0;
   right:0;
   width:100vw;
-  height:100vh;
+  height:100vw;
   z-index: -1;
   background-size: 100% 100%;
 }
@@ -175,7 +175,7 @@ html{
   main {
     font-size: 2.3vw;
     margin: 5vw;
-    padding: 20vh 5vw 20vh 5vw;
+    padding: 20vw 5vw 40vw 5vw;
 	height:auto;
 	width:auto;
   }
