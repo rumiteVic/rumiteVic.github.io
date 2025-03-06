@@ -176,7 +176,7 @@ text-decoration: underline;
   main {
     font-size: 2.3vw;
     margin: 5vw;
-    padding: 20vw 5vw 20vw 5vw;
+    padding: 20vw 0.4vw 20vw 0.4vw;
 	text-align:justify;
 	flex-direction: column;
 	height:auto;
