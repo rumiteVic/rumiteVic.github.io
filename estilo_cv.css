@@ -176,6 +176,7 @@ text-decoration: underline;
     margin: 5vw;
     padding: 20vh 5vw 80vw 5vw;
 	text-align:justify;
+	gap:2vw;
   }
 
   header {
