@@ -1,7 +1,6 @@
 html{
 	min-height:100%;
 	min-width:100%;
-	position:relative;
 }
 body {
   font-family: "Roboto", serif;
@@ -180,14 +179,12 @@ text-decoration: underline;
   html{
 	min-height:100%;
 	min-width:100%;
-	position:relative;
 }
   main {
     font-size: 2.3vw;
     margin: 5vw;
     padding: 20vw 5vw 20vw 5vw;
 	text-align:justify;
-	flex-direction: column;
 	height:auto;
 	width:auto;
   }

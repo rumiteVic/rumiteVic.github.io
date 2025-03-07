@@ -36,7 +36,7 @@
 			let fechanacimiento = document.getElementById("fecha").value;
 			let correo = document.getElementById("email").value.trim();
 			let correochange = document.getElementById("email");
-			if(correo === ''){
+			if(correo === '' || correo.length < 10){
 				correochange.style.border = "0.3vw solid red";
 				return;
 			}

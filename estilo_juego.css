@@ -1,7 +1,6 @@
 html{
 	min-height:100%;
 	min-width:100%;
-	position:relative;
 }
 body {
   font-family: "Roboto", serif;
@@ -9,7 +8,7 @@ body {
   align-items: center;
 }
 main{
-	font-size: 16px;
+	font-size: 1.2vw;
 	color:#591616;
 	text-align:center;
 margin: 10vw 5vw 5vw 5vw;
@@ -161,7 +160,7 @@ main h2{
 	margin:2vw 30vw 2vw 30vw;
 }
 h3{
-	border-bottom: 1px dotted black;
+	border-bottom: 1vw dotted black;
 	margin:0 5vw 0 5vw;
 }
 h2{
@@ -176,7 +175,6 @@ h2{
   html{
 	min-height:100%;
 	min-width:100%;
-	position:relative;
 }
   main {
     font-size: 2.3vw;
