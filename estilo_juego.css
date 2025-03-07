@@ -170,13 +170,6 @@ h2{
 	margin:2vw 5vw 2vw 5vw;
 }
 
-input:invalid {
-  border: 0.2vw solid red;
-}
-input:valid {
-  border: 0.2vw solid green;
-}
-
 
 
 @media (max-width: 768px) and (orientation: portrait) {
@@ -265,13 +258,6 @@ footer {
     font-size: 3vw;
     padding: 3vw;
   }
-  
-  input:invalid {
-  border: 0.2vw solid red;
-}
-input:valid {
-  border: 0.2vw solid green;
-}
 .contactos{
 	width:10%;
 	height:10%;

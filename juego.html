@@ -19,21 +19,52 @@
 			alert("Has hecho:"+cantidadclicks+" clicks totales");
 			}
 		}
-	function formulario() {
-			let nombre = document.getElementById("nombre").value;
-			let fechanacimiento = document.getElementById("fecha").value;
-			let correo = document.getElementById("email").value;
-			let telefono = document.getElementById("movil").value;
-			let colorfav = document.getElementById("color").value;
-			let mensaje = document.getElementById("mensaje").value;			
-			
-			console.log(nombre);
-			console.log(fechanacimiento);
-			console.log(correo);
-			console.log(telefono);
-			console.log(colorfav);
-			console.log(mensaje);
+	document.addEventListener("DOMContentLoaded", function() {
+	document.getElementById("formularioo").addEventListener('submit', formulario); 
+});
+	function formulario(evento) {
+			evento.preventDefault();
+			let nombre = document.getElementById("nombre").value.trim();
+			let nombrechange = document.getElementById("nombre");
+			if(nombre.length < 3 || nombre.value === null){
+				nombrechange.style.border = "0.3vw solid red";
+				return;
 			}
+			else{
+			nombrechange.style.border = "0.3vw solid green";
+			}
+			let fechanacimiento = document.getElementById("fecha").value;
+			let correo = document.getElementById("email").value.trim();
+			let correochange = document.getElementById("email");
+			if(correo === ''){
+				correochange.style.border = "0.3vw solid red";
+				return;
+			}
+			else{
+			correochange.style.border = "0.3vw solid green";
+			}
+			
+			let telefono = document.getElementById("movil").value.trim();
+			let telefonochange = document.getElementById("movil");
+			if(telefono === ''){
+				telefonochange.style.border = "0.3vw solid red";
+				return;
+			}
+			else{
+			telefonochange.style.border = "0.3vw solid green";
+			}
+			let colorfav = document.getElementById("color").value;
+			let mensaje = document.getElementById("mensaje").value.trim();
+			let mensajechange = document.getElementById("mensaje");
+				if(mensaje === ''){
+				mensajechange.style.border = "0.3vw solid red";
+				return;
+				}
+				else{
+				mensajechange.style.border = "0.3vw solid green";
+				}
+				formularioo.submit();
+		}
 		</script>
 	
 	
@@ -63,17 +94,16 @@
 	Haz click!
 	</button>
 		<h2>Formulario</h2>
-			<form method="post">
+			<form id="formularioo" method="post">
 			<p>Responda al siguiente formulario</p>
-			<p><label for="nombre">Nombre</label>: <input type="text" id="nombre" name="name" minlength="3" />*</p>
+			<p><label for="nombre">Nombre</label>: <input type="text" id="nombre" name="name" />*</p>
             <p><label for="fecha">Fecha de nacimiento</label>: <input type="date" id="fecha" name="fechanacimiento" /></p>
-            <p><label for="email">E-mail</label>: <input type="email" id="email" name="correo" minlength="3" maxlength="64" pattern=".+@.+.+"/>*</p>
+            <p><label for="email">E-mail</label>: <input type="email" id="email" name="correo" minlength="3" maxlength="64" pattern="...+@...+...+"/>*</p>
             <p><label for="movil">Teléfono móvil</label>: <input type="tel" id="movil" name="telefono" minlength="9" maxlength="9" placeholder="900000000" />*</p>
             <p><label for="color">Color favorito</label>: <input type="color" id="color" name="colorfav" /></p>
             <p><label for="mensaje">Mensaje a enviar</label>: <textarea id="mensaje" name="mensaje" ></textarea>*</p>
 			<p><input type="submit" value="Enviar formulario" onClick="formulario();" /></p>
 			</form>
-			<button onClick="formulario();">Soy un boton</button>
 	</main>
 <footer>
 	<p>Copyright(c) 2024-2025</p>
