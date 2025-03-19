@@ -5,19 +5,18 @@ html{
 body {
   font-family: "Roboto", serif;
   margin: 0;
-  align-items: center;
 }
 
 main {
   font-size: 1.2vw;
   color: #591616;
   text-align: center;
-margin: 10vw 5vw 5vw 5vw;
+  margin: 10vw 5vw 5vw 5vw;
   padding-top: 6vw;
   padding-bottom: 15vw;
   background-color: rgba(163, 201, 217, 0.6);
   height:auto;
-	width:auto;
+  width:auto;
 }
 
 header {
