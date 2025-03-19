@@ -147,34 +147,6 @@ main h2 {
   text-align: center;
 }
 
-h3 {
-  border-bottom: 0.1vw dotted black;
-  margin: 0 6vw;
-}
-
-h2 {
-  text-decoration: underline;
-  text-align: center;
-}
-
-.imagen{
-	width:20%;
-	height:20%;
-}
-
-.imagen:hover {
-  animation-name: bounce;
-  animation-duration: 1s;
-}
-
-@keyframes  bounce {
-  0% {
-	transform: translateY(0%);
-  }
-  100% {
-	transform: translateY(-25%);
-  }
-}
 
 @media (max-width: 768px) and (orientation: portrait){
 html{
@@ -227,10 +199,7 @@ html{
   z-index: -1;
   background-size: 100% 100%;
 }
-  .imagen {
-    width: 80%;
-    height: auto;
-  }
+
 
 footer {
   position:relative;
@@ -260,10 +229,6 @@ footer {
     padding: 3vw;
   }
 
-  .titulo {
-    margin: 0;
-    text-align: center;
-  }
 .contactos{
 	width:10%;
 	height:10%;
