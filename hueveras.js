@@ -22,8 +22,6 @@ let huevos_max = 100;
 let huevera_b, huevera_m, huevera_d;
 let huevera_x = 128;
 
-let huevo_b, huevo_m, huevo_d;
-
 let game_over_text;
 
 let huevo_shadow;
