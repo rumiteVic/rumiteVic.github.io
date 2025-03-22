@@ -2,8 +2,10 @@ let canvas_w = 800;
 let canvas_h = 450;
 
 let config = {
+	type: Phaser.AUTO,
 	width: canvas_w,
 	height: canvas_h,
+	parent: myGame,
 	scene: {
 		preload: precarga,
 		create: crea,
