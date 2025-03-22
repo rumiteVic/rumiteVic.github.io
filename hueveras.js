@@ -242,6 +242,7 @@ function crea ()
 			object.falling = true;
 			countdown -= 2;
 		}
+		countdown_text.text = countdown;
 	});
 
 	
