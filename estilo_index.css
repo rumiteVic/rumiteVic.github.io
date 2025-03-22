@@ -20,8 +20,8 @@ main {
 }
 #miJuego{
 	align-self:center;
-	width: 800;
-	height: 450;
+	width: 800px;
+	height: 450px;
 }
 header {
   position: fixed;
@@ -231,7 +231,11 @@ footer {
     font-size: 3vw;
     padding: 3vw;
   }
-
+#miJuego{
+	align-self:center;
+	width: 800px;
+	height: 450px;
+}
 .contactos{
 	width:10%;
 	height:10%;
