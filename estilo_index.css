@@ -231,10 +231,10 @@ footer {
     font-size: 3vw;
     padding: 3vw;
   }
-#miJuego{
+#myGame{
 	align-self:center;
-	width: 800px;
-	height: 450px;
+	height:450px;
+	width:800px;
 }
 .contactos{
 	width:10%;
