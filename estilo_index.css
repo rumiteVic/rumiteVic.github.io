@@ -18,10 +18,10 @@ main {
   height:auto;
   width:auto;
 }
-.miJuego{
-	display:grid;
-	justify-items:center;
-	align-self: center;
+#myGame{
+	align-self:center;
+	height:450px;
+	width:800px;
 }
 header {
   position: fixed;
