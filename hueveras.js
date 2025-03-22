@@ -240,7 +240,7 @@ function crea ()
 		}
 		else {
 			object.falling = true;
-			countdown -= 5;
+			countdown -= 2;
 		}
 	});
 
@@ -323,6 +323,7 @@ function next_huevo ()
 		game_over_text.y = canvas_h/2;
 		puntuacion_text.x = canvas_w/2 + 100;
 		puntuacion_text.y = canvas_h/2 + 60;
+		clearInterval(countdown_interval);
 		for(let i = 0; i < huevos.length; i++){
 			huevos[i].falling = false;
 			huevos[i].disableInteractive();
