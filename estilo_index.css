@@ -18,7 +18,11 @@ main {
   height:auto;
   width:auto;
 }
-
+canvas{
+	align-self:center;
+	width: 800;
+	height: 450;
+}
 header {
   position: fixed;
   top: 0;
