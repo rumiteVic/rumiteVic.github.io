@@ -22,6 +22,7 @@ main {
 	align-self:center;
 	height:450px;
 	width:800px;
+	margin:3vw;
 }
 header {
   position: fixed;
@@ -235,6 +236,7 @@ footer {
 	align-self:center;
 	height:450px;
 	width:800px;
+	margin:3vw;
 }
 .contactos{
 	width:10%;
