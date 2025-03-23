@@ -315,7 +315,7 @@ countdown_interval = setInterval(function(){
 	}
 }, 1000);
 
-
+if (huevo_current < huevos.length){
 function next_huevo ()
 {
 	huevo_current++;
@@ -342,5 +342,5 @@ function next_huevo ()
 
 	huevos_interval = setTimeout(next_huevo, huevos_interval_time);
 }
-
+}
 huevos_interval = setTimeout(next_huevo, huevos_interval_time);
