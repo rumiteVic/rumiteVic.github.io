@@ -315,7 +315,7 @@ countdown_interval = setInterval(function(){
 	}
 }, 1000);
 
-if (countdown <= 0){
+if (countdown > 0){
 function next_huevo ()
 {
 	huevo_current++;
